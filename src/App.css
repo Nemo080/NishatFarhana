@@ -1,0 +1,112 @@
+body { 
+  margin: 0 !important; 
+  /* display:flex !important; */
+  flex-direction: column !important;
+  width: 100vw;
+}
+
+.navbar {
+  display: flex !important;
+  justify-content: space-between !important;
+  /* border: solid white 1px !important; */
+  padding:0% !important;
+}
+
+
+.navbar > ul { 
+  display: flex !important;
+  gap: 3rem !important;
+  list-style: none !important;
+  font-size: 20px !important;
+}
+
+.nav-img{
+  width: 100px !important;
+  justify-items: center !important;
+  align-items: center !important;
+}
+
+#root {
+  margin: 0 !important;
+  padding: 2rem !important;
+  text-align: center !important;
+}
+
+.home{
+  grid-template-columns: auto auto !important;
+  display: grid !important;
+  align-items:center !important;
+  justify-items: center !important;
+  font-size: 20px;
+}
+
+.home-me{
+  width: 650px;
+}
+
+.my-button{
+  background-color: #f08080 !important;
+  align-items: left;
+}
+
+.my-button:hover{
+  background-color: cornflowerblue !important;
+}
+
+.project-img {
+  width: 378px !important;
+}
+
+.portfolio-container{
+  display: grid !important;
+  grid-template-columns: auto auto auto !important;
+  background-color:lightcoral !important;
+  padding: 10px !important;
+  color: #213547 !important;
+  border-radius: 1rem;
+
+}
+
+.portfolio-item {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  border: 1px solid rgba(0, 0, 0, 0.8) !important;
+  padding: 20px !important;
+  text-align: center !important;
+  align-items: center !important;
+}
+
+.portfolio-item a:hover {
+  color: lightcoral !important;
+}
+
+.portfolio-item a{
+  color:cornflowerblue !important;
+}
+
+.contact-logos{
+  width: 120px !important;
+  border-radius: 90px !important;
+  padding: 25px !important;
+}
+
+.about-container{
+  display: grid !important;
+  grid-template-columns: auto auto !important;
+  background-color:lightcoral !important;
+  padding: 10px !important;
+  color: #213547 !important;
+}
+
+.about-item {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  border: 1px solid rgba(0, 0, 0, 0.8) !important;
+  padding: 20px !important;
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+  text-align: center !important;
+}
+.about-item h3{
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+

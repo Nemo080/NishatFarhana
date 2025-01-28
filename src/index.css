@@ -1,0 +1,37 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif !important;
+  line-height: 1.5 !important;
+  font-weight: 400 !important;
+
+  color-scheme: light dark !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+  background-color:#1a1a1a !important;
+
+  font-synthesis: none !important;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+a {
+  font-weight: 800 !important;
+  color: lightcoral !important;
+  text-decoration: inherit !important;
+
+}
+a:hover {
+  color:cornflowerblue !important;
+}
+
+body {
+  width: 100%;
+}
+
+h1 {
+  font-size: 3.2em !important;
+  line-height: 1.1 !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
