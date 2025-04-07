@@ -7,6 +7,7 @@ import About from './components/About.jsx';
 import Home from './components/Home.jsx';
 import Contact from './components/Contact.jsx';
 import Portfolio from './components/Portfolio.jsx';
+import Footer from './components/Footer';
 
 
 
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <>
+      <div className="mb-auto">
       <BrowserRouter>
         <Navbar />
         {/* <hr /> */}
@@ -24,6 +26,8 @@ function App() {
               <Route path ="/contact" element={<Contact props = "phone" />}/>
           </Routes>
       </BrowserRouter>
+      </div>
+      <Footer />
     </>
   )
 }
