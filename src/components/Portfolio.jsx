@@ -9,7 +9,7 @@ export default function Portfolio() {
                     <div className="portfolio-container">
                         <div className="card bg-red-100 w-96 shadow-xl">
                             <figure>
-                                <img src="/Yummage.png" alt="Yummage Site" />
+                                <img src="/yummage.gif" alt="Yummage Site" />
                             </figure>
                             <div className="card-body ">
                                 <h2 className="card-title ">Yummage</h2>
