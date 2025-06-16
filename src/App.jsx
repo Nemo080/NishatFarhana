@@ -22,7 +22,7 @@ function App() {
           <Routes>
               <Route path ="/" element={<Home/>}/>
               <Route path ="/portfolio" element={<Portfolio />}/>
-              <Route path ="/about" element={<About/>}/>
+              {/* <Route path ="/about" element={<About/>}/> */}
               <Route path ="/contact" element={<Contact props = "phone" />}/>
           </Routes>
       </BrowserRouter>

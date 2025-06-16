@@ -4,7 +4,42 @@ export default function Portfolio() {
     return (
         <>
             <h1 className="text-6xl font-bold my-2.5 mb-10">Projects</h1>
-            <div className="grid grid-cols-3 content-center ">
+            <div className="grid grid-cols-3 content-center portfolio-item">
+                <div className="carousel-item m-2">
+                    <div className="portfolio-container">
+                        <div className="card bg-red-100 w-96 shadow-xl">
+                            <figure>
+                                <img src="/cloudychicken.png" alt="Cloudy Chicken site" />
+                            </figure>
+                            <div className="card-body ">
+                                <h2 className="card-title ">Cloudy Chicken</h2>
+                                <p>
+                                    Cloudy Chicken is built as a static site to present the artistic works of four individuals. 
+                                    These individuals came together and created an informal art studio which they named Cloudy Chicken.
+                                    <br />{" "}<br />
+                                    Programmed with HTML, CSS, JavaScript
+                                </p>
+                                <br></br>
+                                <div className="card-actions justify-end">
+                                    <a
+                                        href="https://nemo080.github.io/cloudychicken/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <button className="btn btn-primary">Visit Site</button>
+                                    </a>
+                                    <a
+                                        href="https://github.com/Nemo080/cloudychicken"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <button className="btn btn-primary">Github Repo</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="carousel-item m-2">
                     <div className="portfolio-container">
                         <div className="card bg-red-100 w-96 shadow-xl">

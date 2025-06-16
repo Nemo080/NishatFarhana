@@ -9,7 +9,11 @@ body {
   display: flex !important;
   justify-content: space-between !important;
   /* border: solid white 1px !important; */
-  padding:0% !important;
+  padding-left:2rem !important;
+  padding-right:2rem !important;
+  padding-top:2rem !important;
+
+
 }
 
 
@@ -28,13 +32,13 @@ body {
 
 #root {
   margin: 0 !important;
-  padding: 2rem !important;
+  /* padding: 2rem !important; */
   text-align: center !important;
 }
 
 .home{
-  grid-template-columns: auto auto !important;
   display: grid !important;
+  grid-template-columns: auto auto !important;
   align-items:center !important;
   justify-items: center !important;
   font-size: 20px;
@@ -68,20 +72,21 @@ body {
 }
 
 .portfolio-item {
-  background-color: rgba(255, 255, 255, 0.8) !important;
-  border: 1px solid rgba(0, 0, 0, 0.8) !important;
-  padding: 20px !important;
-  text-align: center !important;
-  align-items: center !important;
+  /* background-color: rgba(255, 255, 255, 0.8) !important; */
+  /* border: 1px solid rgba(0, 0, 0, 0.8) !important; */
+  /* padding: 20px !important; */
+  /* text-align: center !important; */
+  /* align-items: center !important; */
+  margin-left: 2rem !important;
 }
 
-.portfolio-item a:hover {
+/* .portfolio-item a:hover {
   color: lightcoral !important;
 }
 
 .portfolio-item a{
   color:cornflowerblue !important;
-}
+} */
 
 .contact-logos{
   width: 120px !important;
